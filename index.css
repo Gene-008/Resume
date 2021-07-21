@@ -32,6 +32,7 @@ nav {
   left: 0;
   top: var(--body-pad-top);
   line-height: 2;
+
 }
 
 article {
@@ -40,7 +41,9 @@ article {
 }
 
 /* === Navbar and marker === */
-
+.rounded-corners {
+  border-radius: 80px 80px 80px 80px;
+}
 nav ul {
   margin: 0;
   padding-left:10px;
